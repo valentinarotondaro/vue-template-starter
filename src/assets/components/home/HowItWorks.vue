@@ -5,6 +5,7 @@
       We are a team of passionate cooks and food lovers who believe that plant-based cuisine can be just as delicious and satisfying as traditional meat-based dishes. Our mission is to bring the vibrant flavors of Latin America to a wider audience, while promoting a healthier and more sustainable lifestyle.
     </p>
   </section>
-</template>
+</template> 
 
-<script setup> </script>
+<script setup>
+</script>   

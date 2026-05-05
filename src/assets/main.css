@@ -1,35 +1,64 @@
-@import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+:root {
+  --color-chile: #FF3B30;
+  --color-naranja: #FF8C00;
+  --color-limon: #FFE600;
+  --color-cilantro: #00B050;
+  --color-cielo: #0057FF;
+  --color-bugambilia: #FF2D9B;
+  --color-noche: #1A1A2E;
+  --color-masa: #FFF9F0;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+body {
+  background-color: #FFF9F0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF3B30;
+  color: #FFE600;
+  border: 2px solid #1A1A2E;
+  border-radius: 9999px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Lilita One', cursive;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+.btn-primary:hover {
+  background-color: #1A1A2E;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFE600;
+  color: #1A1A2E;
+  border: 2px solid #1A1A2E;
+  border-radius: 9999px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Lilita One', cursive;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #1A1A2E;
+  color: #FFE600;
+}
+
+.font-lilita {
+  font-family: 'Lilita One', cursive;
 }
